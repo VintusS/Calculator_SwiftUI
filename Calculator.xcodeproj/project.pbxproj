@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27230F132B1942BB0009E169 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27230F122B1942BB0009E169 /* ButtonView.swift */; };
+		271F65F02B1A0C0A00E9FA35 /* AdditionalOperationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F65EF2B1A0C0A00E9FA35 /* AdditionalOperationButtonView.swift */; };
+		271F65F22B1A0D1700E9FA35 /* OperationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F65F12B1A0D1700E9FA35 /* OperationButtonView.swift */; };
+		27230F132B1942BB0009E169 /* NumButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27230F122B1942BB0009E169 /* NumButtonView.swift */; };
 		27230F162B194C4D0009E169 /* CustomButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27230F152B194C4D0009E169 /* CustomButtonColor.swift */; };
 		27230F182B1950AA0009E169 /* CapsuleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27230F172B1950AA0009E169 /* CapsuleButtonView.swift */; };
 		274F2EDD2B17C751006A4535 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274F2EDC2B17C751006A4535 /* CalculatorApp.swift */; };
@@ -17,7 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27230F122B1942BB0009E169 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		271F65EF2B1A0C0A00E9FA35 /* AdditionalOperationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalOperationButtonView.swift; sourceTree = "<group>"; };
+		271F65F12B1A0D1700E9FA35 /* OperationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationButtonView.swift; sourceTree = "<group>"; };
+		27230F122B1942BB0009E169 /* NumButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumButtonView.swift; sourceTree = "<group>"; };
 		27230F152B194C4D0009E169 /* CustomButtonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonColor.swift; sourceTree = "<group>"; };
 		27230F172B1950AA0009E169 /* CapsuleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonView.swift; sourceTree = "<group>"; };
 		274F2ED92B17C751006A4535 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +45,9 @@
 		27230F112B1942A90009E169 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				27230F122B1942BB0009E169 /* ButtonView.swift */,
+				27230F122B1942BB0009E169 /* NumButtonView.swift */,
+				271F65EF2B1A0C0A00E9FA35 /* AdditionalOperationButtonView.swift */,
+				271F65F12B1A0D1700E9FA35 /* OperationButtonView.swift */,
 				27230F172B1950AA0009E169 /* CapsuleButtonView.swift */,
 			);
 			path = Components;
@@ -163,10 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				27230F182B1950AA0009E169 /* CapsuleButtonView.swift in Sources */,
+				271F65F02B1A0C0A00E9FA35 /* AdditionalOperationButtonView.swift in Sources */,
 				274F2EDF2B17C751006A4535 /* ContentView.swift in Sources */,
+				271F65F22B1A0D1700E9FA35 /* OperationButtonView.swift in Sources */,
 				27230F162B194C4D0009E169 /* CustomButtonColor.swift in Sources */,
 				274F2EDD2B17C751006A4535 /* CalculatorApp.swift in Sources */,
-				27230F132B1942BB0009E169 /* ButtonView.swift in Sources */,
+				27230F132B1942BB0009E169 /* NumButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

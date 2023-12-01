@@ -1,5 +1,5 @@
 //
-//  ButtonView.swift
+//  AdditionalOperationButtonView.swift
 //  Calculator
 //
 //  Created by Mindrescu Dragomir on 01.12.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ButtonView: View {
+struct AdditionalOperationButtonView: View {
     @State var buttonName: String
     @State var buttonColor: Color
     
@@ -16,9 +16,14 @@ struct ButtonView: View {
             .resizable()
             .scaledToFit()
             .foregroundColor(buttonColor)
+            .padding(-5)
+            .background(
+                Color.black
+            )
+            .clipShape(Circle())
     }
 }
 
 #Preview {
-    ButtonView(buttonName: "equal.circle.fill", buttonColor: .operationButtonColor)
+    AdditionalOperationButtonView(buttonName: "c.circle.fill", buttonColor: .additionalButtonColor)
 }
